@@ -1,3 +1,7 @@
+This fork only fixes the 3.0.13 security problems and makes the repository distributable from github.
+
+---
+
 # sweet-cli
 
 This is the command line package for [sweet.js](https://github.com/sweet-js/sweet.js).
