@@ -19,12 +19,12 @@ var path = require('path');
 var fs   = require('fs');
 var compile = require('@sweet-js/core').compile;
 var NodeLoader = require('@sweet-js/core/dist/node-loader').default;
-var semver = require('semver');
+// var semver = require('semver');
 
-if (!semver.satisfies(process.version, '>=5.0.0')) {
-  console.log('Sweet requires node >=5.0.0, you have: ' + process.version);
-  process.exit(1);
-}
+// if (!semver.satisfies(process.version, '>=5.0.0')) {
+//   console.log('Sweet requires node >=5.0.0, you have: ' + process.version);
+//   process.exit(1);
+// }
 
 let loaderOptions = {
   noBabel: argv.noBabel,
